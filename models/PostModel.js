@@ -8,18 +8,8 @@ const schema = new mongoose.Schema(
     },
     content: {
       type: String,
-      required: true,
-    },
-    author: {
-      type: String,
-      required: true,
-      default: 'Anonymous',
-    },
-    attachment: String,
-    likeCount: {
-      type: Number,
-      default: 0,
-    },
+      // required: true,
+    }
   },
   { timestamps: true }
 );
